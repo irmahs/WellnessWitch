@@ -78,8 +78,3 @@ Built using **ASP.NET Core (Razor Pages)** and **C#**, this app keeps front-end 
    - `https://localhost:5244/` (or the URL/port shown in your terminal)
 
 You should see the Wellness Witch interface. Select your ingredients and brew your wellness shot!
-
-```bash
-dotnet new razor -n WellnessShotsApp
-cd WellnessShotsApp
-dotnet run
