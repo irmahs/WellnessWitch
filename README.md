@@ -59,7 +59,25 @@ Built using **ASP.NET Core (Razor Pages)** and **C#**, this app keeps front-end 
 - [.NET 8 SDK](https://dotnet.microsoft.com/download)
 - (Optional) [Visual Studio Code](https://code.visualstudio.com/) + C# extension
 
-### Create and Run the App
+### Clone and Run the App
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/irmahs/WellnessWitch.git
+   cd WellnessWitch
+   ```
+2. **Restore dependencies:**
+   ```bash
+   dotnet restore
+   ```
+3. **Run the app with Hot Reload:**
+   ```bash
+   dotnet watch run
+   ```
+4. **Open your browser and go to:**
+   - `https://localhost:5244/` (or the URL/port shown in your terminal)
+
+You should see the Wellness Witch interface. Select your ingredients and brew your wellness shot!
 
 ```bash
 dotnet new razor -n WellnessShotsApp
